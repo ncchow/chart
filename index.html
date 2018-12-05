@@ -45,7 +45,15 @@
 					<div class="content-wrapper">
 						<p>
 							hyper-personalized astrology <br />
-							unlike the broad and vague horoscopes you see as memes, we use a full image of the sky when and where you were born to generate hyper-personalized horoscopes. get your chart by filling in the form below.
+							unlike the broad and vague horoscopes you see as memes, we use a full image of the sky when and where you were born to generate hyper-personalized horoscopes. get your chart by filling in the blanks below. <br />
+							<form>
+							<span> i was born in&nbsp;</span
+							<input required type="text" placeholder="a city" /><br />
+							<span>&nbsp;on&nbsp;<span>
+							<input required type="date" placeholder="yyyy-mm-dd" pattern="\d\d\d\d-\d\d-\d\d" name="date" value>...<?input>
+							<span>&nbsp;at&nbsp;<span>
+							<input required type="time" placeholder="hh:mm AM" pattern="pattern="(\d?\d):(\d\d)( (AM|PM|am|pm))?" name="time" value>> == $0
+							</form>
 						</p>
 
 						<p>
