@@ -191,6 +191,7 @@ button {
   height: 91%;
   width: 100%;
   overflow: auto;
+  background-color; #000000
   text-align: center;
   opacity: 0;
   -webkit-transition: opacity 0s 0.4s;
